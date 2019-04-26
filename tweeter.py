@@ -19,7 +19,6 @@ class Tweeter:
 
         # https://tweepy.readthedocs.io/en/latest/cursor_tutorial.html
         # Cursor instead of api call
-        # Neex to use tweet_mode and full_text instead of text
         for tweet in tweepy.Cursor(self.api.user_timeline,id='mlhacks',tweet_mode='extended').items(100):
             if pattern.search(tweet.full_text):
                 tweets.append({

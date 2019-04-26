@@ -7,7 +7,9 @@ This is the starter code for the MLHLocalhost Twitter Feed
 This project requires the following tools:
 
 - Python - The programming language used by Flask.
-- Tweepy - A wrapper library for easily accessing the Twitter API
+- [Tweepy](http://www.tweepy.org/) - A wrapper library for easily accessing the Twitter API
+- [Flask](http://flask.pocoo.org/) - A microframework for Python web applications
+- [Jinja2](http://jinja.pocoo.org/docs/2.10/) - A templating language for Python, used by Flask.
 
 To get started, install Python
 
@@ -34,3 +36,12 @@ Next, we need to install the project dependencies, which are listed in `requirem
 ```
 (venv) $ pip install -r requirements.txt
 ```
+
+Now we're ready to start our server which is as simple as:
+
+```
+(venv) $ flask run
+```
+
+Open http://localhost:5000 to view it in your browser.
+
