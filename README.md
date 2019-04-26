@@ -19,3 +19,18 @@ To get started, install Python
 $ git clone https://github.com/Siunami/MLH-Localhost-Twitter-Feed.git
 $ cd MLH-Localhost-Twitter-Feed
 ```
+
+**Step 2. Create a Virtual Environment and install Dependencies.**
+
+Create a new Virtual Environment for the project and activate it. If you don't have the `virtualenv` command yet, you can find installation [instructions here](https://virtualenv.readthedocs.io/en/latest/). Learn more about [Virtual Environments](http://flask.pocoo.org/docs/1.0/installation/#virtual-environments).
+
+```
+$ virtualenv venv
+$ source venv/bin/activate
+```
+
+Next, we need to install the project dependencies, which are listed in `requirements.txt`.
+
+```
+(venv) $ pip install -r requirements.txt
+```
