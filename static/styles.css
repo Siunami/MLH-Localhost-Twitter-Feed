@@ -1,0 +1,28 @@
+* {
+    color:#14171A;
+}
+
+body {
+    background-color:#1da1f226;
+}
+
+header {
+    height:100px;
+}
+
+h1 {
+    text-align: center
+}
+
+.tweet {
+    padding: 10px;
+    margin:auto;
+    width:50%;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.date {
+    color:#657786;
+}

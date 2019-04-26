@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+		
+	</head>
+	<body>
+		<header>
+			<h1>MLH LocalHost Tweets</h1>
+		</header>	
+		{% for tweet in tweets %}
+			<div class="tweet">
+				<p>{{tweet.text}}</p>
+				<span>
+					<p class="date">{{tweet.date}}</p> 
+					<a href="http://www.twitter.com">t</a>
+				</span>
+			</div>	
+		{% endfor %}
+	</body>
+</html>
