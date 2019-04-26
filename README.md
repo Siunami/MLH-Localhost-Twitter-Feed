@@ -40,7 +40,7 @@ Next, we need to install the project dependencies, which are listed in `requirem
 Now we're ready to start our server which is as simple as:
 
 ```
-(venv) $ flask run
+(venv) $ FLASK_APP=app.py flask run
 ```
 
 Open http://localhost:5000 to view it in your browser.
