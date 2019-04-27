@@ -10,8 +10,8 @@ class Tweeter:
         self.tweets = []
 
     def authenticate(self):
-        auth = tweepy.OAuthHandler(environ.get('apiKey'), environ.get('apiKeySecret')
-        auth.set_access_token(environ.get('accessToken'), environ.get('accessTokenSecret')
+        auth = tweepy.OAuthHandler(environ.get('apiKey'), environ.get('apiKeySecret'))
+        auth.set_access_token(environ.get('accessToken'), environ.get('accessTokenSecret'))
         return tweepy.API(auth)
     
     def scrapeTweets(self):
