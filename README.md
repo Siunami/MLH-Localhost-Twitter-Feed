@@ -1,6 +1,6 @@
 # Introduction
 
-This is the starter code for the MLHLocalhost Twitter Feed
+This is the starter code for the MLHLocalhost Twitter Bot Workshop
 
 # Installation
 
