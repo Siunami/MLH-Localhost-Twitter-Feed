@@ -1,5 +1,6 @@
 import tweepy
-from keys import apiKey,apiKeySecret,accessToken,accessTokenSecret
+# from keys import apiKey,apiKeySecret,accessToken,accessTokenSecret
+from os import environ
 
 class Tweeter:
     def __init__(self, search_query, numTweets):
@@ -9,8 +10,8 @@ class Tweeter:
         self.tweets = []
 
     def authenticate(self):
-        auth = tweepy.OAuthHandler(apiKey, apiKeySecret)
-        auth.set_access_token(accessToken, accessTokenSecret)
+        auth = tweepy.OAuthHandler(environ.get('apiKey'), environ.get('apiKeySecret')
+        auth.set_access_token(environ.get('accessToken'), environ.get('accessTokenSecret')
         return tweepy.API(auth)
     
     def scrapeTweets(self):
