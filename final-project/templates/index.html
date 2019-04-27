@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+	<body>
+		<div class="header">
+			<h1>MLH LocalHost Tweets</h1>
+		</div>	
+		{% for tweet in tweets %}
+			<div class="tweet">
+				<p>{{tweet.text}}</p>
+				<p class="date">{{tweet.date}}</p> 
+				<p class="user">Tweet by: <a href={{tweet.url}} >{{tweet.user}}</a></p>
+			</div>	
+		{% endfor %}
+	</body>
+</html>

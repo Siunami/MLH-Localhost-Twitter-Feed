@@ -1,0 +1,39 @@
+* {
+    color:#14171A;
+}
+
+body {
+    background-color:#1da1f226;
+    margin: 0;
+}
+
+.header {
+    margin-bottom:20px;
+    background-color:#AAB8C2;
+    text-align:center;
+    padding:20px
+
+}
+
+.tweet {
+    padding: 10px;
+    margin:auto;
+    width:50%;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.date,.user{
+    color:#657786;
+    display:inline;
+}
+
+.date {
+    float:left;
+}
+
+.user {
+    float:right;
+}
