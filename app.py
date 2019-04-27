@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from tweeter import Tweeter
-from os import environ
+import os
 
 app = Flask(__name__)
 
