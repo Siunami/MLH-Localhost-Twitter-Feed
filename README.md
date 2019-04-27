@@ -2,6 +2,11 @@
 
 This is the starter code for the MLHLocalhost Twitter Bot Workshop
 
+The root directory contains the final project configured for Heroku.
+The starter-project folder contains the skeleton code for the workshop.
+The final-project folder is a working example of the workshop project.
+### Note: Need to add a keys.py file to final-project for it to work
+
 # Installation
 
 This project requires the following tools:
